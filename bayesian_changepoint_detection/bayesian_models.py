@@ -1,6 +1,5 @@
 from numba import jit
 import numpy as np
-from scipy._lib._util import _asarray_validated
 
 def logsumexp(a, axis=None, b=None, keepdims=False, return_sign=False):
     """Compute the log of the sum of exponentials of input elements.
